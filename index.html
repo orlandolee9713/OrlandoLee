@@ -1,79 +1,128 @@
 <!DOCTYPE html>
-<html>
-<head>
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
- <link rel="stylesheet" href="main.css">
- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
- <link rel="shortcut icon" href="favicon.ico" type="assets/logo.JPG"/>
- <meta charset="utf-8">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <link rel="shortcut icon" type="image/jpeg" href="assets/logo.JPG">
- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
- <script src="app.js" charset="utf-8"></script>
- <title></title>
-</head>
-<body>
- <header>
-   <a href="https://www.linkedin.com/in/orlandotlee/"<i class="fa fa-linkedin-square" style="font-size:24px"></i></a>
-   <a href="https://github.com/orlandolee9713"><i class="fa fa-github" style="font-size:24px" aria-hidden="true"></i></a>
-   <a href="https://www.slideshare.net/slideshow/embed_code/key/E9xgyRdzE7NyBw"<i class="fa fa-file" style="font-size:23px"></i></a>
-   <nav>
-     <ul>
-       <li id="about" class="openModal">about</li>
-     </ul>
-   </nav>
- </header>
- <div id="modal">
-   <div id="modal-textbox">
-     <div class="modalstyle">
-       <img src="images/OrlandoLee.png" alt="">
-       <p>Hello! I'm Orlando. A Full-Stack Software Engineer based out of NYC! I recently began coding after my stent in the medical field where I served a s a Radiologist Technologist. I have always had a passion for helping others in anyway I could and when I stumbled upon coding and web developing I knew that it was the right fit fo me!After networking and researching information on exactly what being a web developer means I quickly enrolled into a remote coding bootcamp and that is where the journey began. Take a look around and feel free to contact me about anything. I am always looking for new challeneges and opportunities for growth! Looking forward to hearing from you! </p>
-     </div>
-     <div class="modal-footer">
-       <a id="close" class="modal-buttons">Close</a>
-     </div>
-   </div>
- </div>
-<div class="section">
-   <img src="assets/logo.JPG" alt="">
-     </div>
-   <div class="sites">
-     <div class="link"  >
-       <div class="sidebar">
-         <img src="images/weatherApp.png" alt="" >
-       </div>
-       <div class="info">
-         <a href="https://orlandolee9713.github.io/"><h2>Current Weather App</h2></a>
-            <p>The Current Weather App I constructed is a program that would allow the user to have access to the updated weather in any city that the user would input along with icons and descriptions of levels such as humidity, wind speed, and temperature (°F) whose information was obtained using a local API (openweatherapp.com).
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Orlando Lee</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <header>
+      <div class="menu-toggler">
+        <div class="bar half start"></div>
+        <div class="bar"></div>
+        <div class="bar half end"></div>
+      </div>
+      <nav class="top-nav">
+        <ul class="nav-list">
+          <li>
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li>
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li>
+            <a href="#experience" class="nav-link">Experience</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="landing-text">
+        <h1>Orlando Lee</h1>
+        <h6>Full-Stack Software Engineer | Web Developer</h6>
+      </div>
+    </header>
+
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="profile-img">
+          <img src="images/OrlandoLee.png" alt="">
+        </div>
+        <div class="about-details">
+          <div class="about-heading">
+            <h1>About</h1>
+            <h6>Myself</h6>
+          </div>
+          <p>
+            Hello! I'm Orlando. A Full-Stack Software Engineer based out of NYC! I recently began coding after my stent in the medical field where I served a s a Radiologist Technologist. I have always had a passion for helping others in anyway I could and when I stumbled upon coding and web developing I knew that it was the right fit fo me!After networking and researching information on exactly what being a web developer means I quickly enrolled into a remote coding bootcamp and that is where the journey began. Take a look around and feel free to contact me about anything. I am always looking for new challeneges and opportunities for growth! Looking forward to hearing from you!
+          </p>
+        </div>
+        <div class="social-media">
+          <ul class="nav-list">
+            <li>
+              <a href="#" class="icon-link">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="icon-link">
+                <i class="fab fa-github-square"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="icon-link">
+                <i class="fas fa-file-alt"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <div class="section-headin">
+          <h1>Services</h1>
+          <h6>What I can do for you</h6>
+        </div>
+        <div class="my-skills">
+          <div class="skill">
+            <div class="icon-container">
+              <i class="fas fa-layer-group"></i>
+            </div>
+            <h1>Web Design</h1>
+            <p>
+              Web Design Text Here
             </p>
-       </div>
-     <div class="link">
-       <div class="sidebar">
-         <img src="images/CrudTech.png" alt="">
-       </div>
-       <div class="info">
-           <a href="https://safe-dusk-55377.herokuapp.com/people"><h2>Employee Database</h2></a>
-           <p>The Employee Database application that I constructed allows employers to store, keep track of(or view), and edit or delete its employee database using the seven RESTFUL routes</p>
-       </div>
-     </div>
-     </div>
-     <div class="link">
-       <div class="sidebar">
-         <img src="images/RecipeApp.png" alt="" >
-       </div>
-       <div class="info">
-         <a href="https://serene-fortress-93521.herokuapp.com/"><h2>FindMeRecipes</h2></a>
-          <p>The FindMeRecipes app does exactly what it sounds like. It finds you recipes based on the food ingredient you searched for. This app uses a third-party API and designed using React with a Router.</p>
-       </div>
-     </div>
-   </div>
-</body>
-<footer>
- <div class="footerlink">
- <a href="https://www.linkedin.com/in/orlandtlee/"<i class="fa fa-linkedin-square" style="font-size:24px"></i></a>
- <a href="https://github.com/orlandolee9713"><i class="fa fa-github" style="font-size:24px" aria-hidden="true"></i></a>
- <a href="https://www.slideshare.net/slideshow/embed_code/key/E9xgyRdzE7NyBw"<i class="fa fa-file" style="font-size:23px"></i></a>
-   </div>
-</footer>
+          </div>
+          <div class="skill">
+            <div class="icon-container">
+              <i class="fas fa-code"></i>
+            </div>
+            <h1>Web Development</h1>
+            <p>
+              Web Design Text Here
+            </p>
+          </div>
+          <div class="skill">
+            <div class="icon-container">
+              <i class='fas fa-chart-line'></i>
+            </div>
+            <h1>Product Strategy</h1>
+            <p>
+              Web Design Text Here
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+     integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+     crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
