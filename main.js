@@ -1,7 +1,6 @@
 $(document).ready(function () {
-  $('.menu-toggle').on('click', function(){
+  $('.menu-toggler').on('click', function(){
     $(this).toggleClass('open');
-    $('.main-nav').toggleClass('open');
-
+    $('.top-nav').toggleClass('open');
   });
 });

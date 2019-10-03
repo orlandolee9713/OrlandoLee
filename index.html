@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
     <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -41,7 +42,6 @@
         <h6>Full-Stack Software Engineer | Web Developer</h6>
       </div>
     </header>
-
 
     <section class="about" id="about">
       <div class="container">
@@ -128,7 +128,6 @@
             <img src="images/weatherApp.png" alt="WeatherApp">
           </div>
           <div class="portfolio-description">
-            <h6>Web Development</h6>
             <h1>Current Weather Application</h1>
             <p>
               The Current Weather App I constructed is a program that would allow the user to have access to the updated weather in any city that the user would input along with icons and descriptions of levels such as humidity, wind speed, and temperature (°F) whose information was obtained using a local API (openweatherapp.com).
@@ -136,15 +135,14 @@
           </div>
         </div>
         <div class="portfolio-item">
-          <div class="portfolio-img">
-            <img src="images/CrudTech.png" alt="CrudTech">
-          </div>
           <div class="portfolio-description">
-            <h6>Web Development</h6>
             <h1>Employee Database CRUD Application</h1>
             <p>
               The Employee Database application that I constructed allows employers to store, keep track of(or view), and edit or delete its employee database using the seven RESTFUL routes
             </p>
+          </div>
+          <div class="portfolio-img">
+            <img src="images/CrudTech.png" alt="CrudTech">
           </div>
         </div>
         <div class="portfolio-item">
@@ -152,7 +150,6 @@
             <img src="images/RecipeApp.png" alt="RecipeApp">
           </div>
           <div class="portfolio-description">
-            <h6>Web Development</h6>
             <h1>Find Me Recipes Application</h1>
             <p>
               The FindMeRecipes app does exactly what it sounds like. It finds you recipes based on the food ingredient you searched for. This app uses a third-party API and designed using React with a Router
@@ -161,6 +158,79 @@
         </div>
       </div>
     </section>
+
+    <section class="experience" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Work Experience</h1>
+          <h6>Past and current jobs</h6>
+        </div>
+        <div class="timeline">
+          <ul>
+            <li class="date" data-date="06/2019 - 09/2019">
+              <h1>General Assembly</h1>
+              <p>
+                Student
+              </p>
+              <p>
+                500-hour full-time and full-stack immersive training on front-end and back-end programming languages, tools, and methodologies.
+              </p>
+            </li>
+            <li class="date" data-date="03/2014 - 06/2019">
+              <h1>White Plains Hospital</h1>
+              <p>
+                Radiologist Technologist
+              </p>
+              <p>
+                Provided adequate patient care through x-ray imaging and proccessing patients as efficiently as possible as well as creating patient assignments, updating patient demographics, insurances and PHI forms.
+              </p>
+            </li>
+            <li class="date" data-date="10/2011 - 11/2013">
+              <h1>Victoria's Secret</h1>
+              <p>
+                Product Manager
+              </p>
+              <p>
+                Managed employee's daily timesheets, payroll and schedules based on estimated stock deliveries as well as overseeing the processing of shipment and accurate censoring of merchandise.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Contact</h1>
+          <h6>Lets Work Together!</h6>
+        </div>
+        <form action="index.html">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Enter Your Name..." required>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter Your Email..." required>
+          <label for="name">Services</label>
+          <select name="services" id="service">
+            <option value="">Web Design</option>
+            <option value="">Web Development</option>
+            <option value="">Web Design/Development</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea name="subject" id="subject" rows="10" cols="10"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+
+    <footer class="copyright">
+      <div class="up" id="up">
+        <i class="fas fa-chevron-up"></i>
+        <p>&copy; 2019 Orlando Lee</p>
+      </div>
+
+    </footer>
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"
      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
