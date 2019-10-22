@@ -514,6 +514,6 @@ input[type='submit']:hover{
     margin: 0 0 7rem 0;
   }
   .portfolio-item{
-    flex-direction: row;
+    flex-direction: column;
   }
 }
