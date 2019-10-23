@@ -286,8 +286,8 @@ li{
   margin-bottom: 0;
 }
 .profile-img{
-  width: 50rem;
-  flex: 2;
+  width: 40rem;
+  flex: 0.5;
 }
 .portfolio-description{
 
